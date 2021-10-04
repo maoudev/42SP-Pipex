@@ -1,2 +1,9 @@
 # 42SP-Pipex
-This project is the discovery in detail and by programming of a UNIXmechanism that you already know.
+Pipex is a project that reproduces the behaviour of the shell pipe | command in C, a 42São Paulo project. October/2021 - /2021
+
+Description: Your objective is to code the Pipex program.
+
+- Actual Status: In progress
+- Result: -
+
+Need any help: vcavalca@student.42sp.org.br
