@@ -10,3 +10,41 @@
 #                                                                              #
 # **************************************************************************** #
 
+NAME = pipex
+
+CC = clang
+CFLAGS = -Wall -Werror -Wextra
+
+INCLUDE_DIR = incl
+SOURCE_DIR = src
+OBJ_DIR = obj
+
+SRC_FILES = pipex.c
+
+SRCS = $(addprefix $(SOURCE_DIR)/, $(SRC_FILES))
+OBJ = $(SRCS:$(SOURCE_DIR)/%.c=$(OBJ_DIR)/%.o)
+
+all: $(NAME)
+
+$(NAME): $(OBJ_DIR) $(OBJ)
+		$(CC) $(OBJ) -o $(NAME)
+		@echo "Successfully compiled $(NAME)"
+
+$(OBJ_DIR)/%.o: $(SOURCE_DIR)/%.c
+	$(CC) $(CFLAGS) -c -I$(INCLUDE_DIR) -o $@ $<
+
+$(OBJ_DIR):
+	mkdir $(OBJ_DIR)
+
+%.o: %.c
+	@$(CC) $(CFLAGS) -o $@ $<
+
+clean: 
+		@rm -rf $(OBJ_DIR)
+		@echo "Removed objects files"
+
+fclean: clean
+		@rm -rf $(NAME)
+		@echo "Removed $(NAME) file"
+
+re: fclean all
