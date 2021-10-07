@@ -6,7 +6,7 @@
 #    By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/04 10:37:37 by vcavalca          #+#    #+#              #
-#    Updated: 2021/10/07 14:14:22 by vcavalca         ###   ########.fr        #
+#    Updated: 2021/10/07 14:29:54 by vcavalca         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ all: $(NAME)
 
 $(NAME): $(OBJ_DIR) $(OBJ)
 		@make -C $(INCLUDE_DIR)/libft
-		$(CC) $(OBJ) -o $(NAME)
+		$(CC) $(OBJ) -o $(NAME) $(INCLUDE_DIR)/libft/libft.a
 		@echo "Successfully compiled $(NAME)"
 
 $(OBJ_DIR)/%.o: $(SOURCE_DIR)/%.c
