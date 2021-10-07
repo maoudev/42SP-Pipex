@@ -6,7 +6,14 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 10:38:55 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/10/04 10:38:57 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/10/07 10:02:01 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef PIPEX_H
+#define PIPEX_H
+
+# include <unistd.h>
+# include <stdio.h>
+
+#endif
