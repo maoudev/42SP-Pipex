@@ -19,7 +19,7 @@ INCLUDE_DIR = incl
 SOURCE_DIR = src
 OBJ_DIR = obj
 
-SRC_FILES = pipex.c
+SRC_FILES = ft_pipex.c
 
 SRCS = $(addprefix $(SOURCE_DIR)/, $(SRC_FILES))
 OBJ = $(SRCS:$(SOURCE_DIR)/%.c=$(OBJ_DIR)/%.o)
