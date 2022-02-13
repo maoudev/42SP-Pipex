@@ -6,12 +6,8 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 10:39:36 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/10/07 10:29:09 by vcavalca         ###   ########.fr       */
+/*   Updated: 2022/02/13 20:26:27 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "pipex.h"
-
-int main(void)
-{
-}
