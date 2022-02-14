@@ -6,7 +6,7 @@
 #    By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/04 10:37:37 by vcavalca          #+#    #+#              #
-#    Updated: 2021/10/07 14:29:54 by vcavalca         ###   ########.fr        #
+#    Updated: 2022/02/13 21:36:29 by vcavalca         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ INCLUDE_DIR = incl
 SOURCE_DIR = src
 OBJ_DIR = obj
 
-SRC_FILES = ft_pipex.c ft_utils.c
+SRC_FILES = ft_pipex.c ft_utils.c ft_main.c
 
 SRCS = $(addprefix $(SOURCE_DIR)/, $(SRC_FILES))
 OBJ = $(SRCS:$(SOURCE_DIR)/%.c=$(OBJ_DIR)/%.o)
