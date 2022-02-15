@@ -1,3 +1,0 @@
-[submodule "incl/libft"]
-	path = incl/libft
-	url = https://github.com/vcavalca/42SP-libft.git
