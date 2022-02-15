@@ -17,6 +17,5 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
-# include "libft/incl/libft.h"
 
 #endif
