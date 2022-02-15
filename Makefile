@@ -27,8 +27,7 @@ OBJ = $(SRCS:$(SOURCE_DIR)/%.c=$(OBJ_DIR)/%.o)
 all: $(NAME)
 
 $(NAME): $(OBJ_DIR) $(OBJ)
-		@make -C $(INCLUDE_DIR)/libft
-		$(CC) $(OBJ) -o $(NAME) $(INCLUDE_DIR)/libft/libft.a
+		$(CC) $(OBJ) -o $(NAME)
 		@echo "Successfully compiled $(NAME)"
 
 $(OBJ_DIR)/%.o: $(SOURCE_DIR)/%.c
@@ -42,12 +41,10 @@ $(OBJ_DIR):
 
 clean: 
 		@rm -rf $(OBJ_DIR)
-		@make clean -C $(INCLUDE_DIR)/libft
 		@echo "Removed objects files"
 
 fclean: clean
 		@rm -rf $(NAME)
-		@make fclean -C $(INCLUDE_DIR)/libft
 		@echo "Removed $(NAME) file"
 
 re: fclean all
