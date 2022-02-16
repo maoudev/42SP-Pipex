@@ -6,8 +6,13 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 10:39:36 by vcavalca          #+#    #+#             */
-/*   Updated: 2022/02/13 20:26:27 by vcavalca         ###   ########.fr       */
+/*   Updated: 2022/02/16 10:04:24 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "pipex.h"
+
+void	ft_pipex(char **argv, char **p)
+{
+	int	fd[2];
+}
