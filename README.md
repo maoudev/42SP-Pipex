@@ -12,7 +12,9 @@ Need any help: vcavalca@student.42sp.org.br
 
 If you want to clone it, you have to use the command bellow:
 
-``` git clone https://github.com/vcavalca/42SP-Fract-ol.git ```
+``` bash 
+git clone https://github.com/vcavalca/42SP-Fract-ol.git
+```
 
 ## How it works
 
