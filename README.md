@@ -6,8 +6,6 @@ Description: Your objective is to code the Pipex program.
 - Actual Status: In progress
 - Result: -
 
-Need any help: vcavalca@student.42sp.org.br
-
 ## Clone
 
 If you want to clone it, you have to use the command bellow:
